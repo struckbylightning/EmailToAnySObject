@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email To Any sObject</fullName>
+    <types>
+        <members>EmailServiceUtilities</members>
+        <members>EmailToAnySObject</members>
+        <members>EmailToAnySObjectTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Case.Default Support Process</members>
+        <name>BusinessProcess</name>
+    </types>
+    <types>
+        <members>Email_to_sObject_Configuration__mdt.DOMAIN_CHECK__c</members>
+        <members>Email_to_sObject_Configuration__mdt.Default_Entitlement_Process_Id__c</members>
+        <members>Email_to_sObject_Configuration__mdt.Do_Case_Sensitive_Keywords_Match__c</members>
+        <members>Email_to_sObject_Configuration__mdt.Do_Keyword_Match_Against__c</members>
+        <members>Email_to_sObject_Configuration__mdt.General_Priority__c</members>
+        <members>Email_to_sObject_Configuration__mdt.General_Queue_Name__c</members>
+        <members>Email_to_sObject_Configuration__mdt.General_Recordtype_Devname__c</members>
+        <members>Email_to_sObject_Configuration__mdt.Generic_Support_Email__c</members>
+        <members>Email_to_sObject_Configuration__mdt.Internal_Email_Domain__c</members>
+        <members>Email_to_sObject_Configuration__mdt.MISCELLANEOUS__c</members>
+        <members>Email_to_sObject_Mapping__mdt.Active__c</members>
+        <members>Email_to_sObject_Mapping__mdt.Create_Record__c</members>
+        <members>Email_to_sObject_Mapping__mdt.Keywords__c</members>
+        <members>Email_to_sObject_Mapping__mdt.Log_EmailMessage__c</members>
+        <members>Email_to_sObject_Mapping__mdt.Order__c</members>
+        <members>Email_to_sObject_Mapping__mdt.Thread_Id_Field_API_Name__c</members>
+        <members>Email_to_sObject_Mapping__mdt.To_Email_Address__c</members>
+        <members>Email_to_sObject_Mapping__mdt.particle__c</members>
+        <members>Email_to_sObject_Mapping__mdt.sObject_Type__c</members>
+        <members>Email_to_sObject_Mapping__mdt.sobjecttype__c</members>
+        <members>Email_to_sObject_Mapping__mdt.threadfield__c</members>
+        <members>Field_Config__mdt.Field_API_Name__c</members>
+        <members>Field_Config__mdt.Insert_and_link_if_no_match_found__c</members>
+        <members>Field_Config__mdt.Is_Text_Lookup__c</members>
+        <members>Field_Config__mdt.Text_Lookup_Field_API_Name__c</members>
+        <members>Field_Config__mdt.Text_Lookup_sObject_API_Name__c</members>
+        <members>Predefined_Field_Value__mdt.Email_to_sObject_Mapping__c</members>
+        <members>Predefined_Field_Value__mdt.Field_Config__c</members>
+        <members>Predefined_Field_Value__mdt.Field_Value__c</members>
+        <members>Predefined_Field_Value__mdt.Insert_related_record_if_no_match_found__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Email_to_sObject_Configuration__mdt</members>
+        <members>Email_to_sObject_Mapping__mdt</members>
+        <members>Field_Config__mdt</members>
+        <members>Predefined_Field_Value__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Email_to_sObject_Configuration__mdt-Email to Service Request Configuration Layout</members>
+        <members>Email_to_sObject_Mapping__mdt-Email to sObject Mapping Layout</members>
+        <members>Field_Config__mdt-Field Config Layout</members>
+        <members>Predefined_Field_Value__mdt-Predefined Field Value Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Email_to_sObject_Mapping__mdt.All</members>
+        <members>Field_Config__mdt.All</members>
+        <members>Predefined_Field_Value__mdt.All</members>
+        <members>Predefined_Field_Value__mdt.Flight_Request_deloitte_flight</members>
+        <members>Predefined_Field_Value__mdt.Quote_Request_Deloitte_sales</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Case.Quote_Request</members>
+        <members>Case.Sales_Order_Request</members>
+        <name>RecordType</name>
+    </types>
+    <version>51.0</version>
+</Package>

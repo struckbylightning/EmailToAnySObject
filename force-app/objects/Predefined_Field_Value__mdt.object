@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Email_to_sObject_Mapping__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Email to sObject Mapping</label>
+        <referenceTo>Email_to_sObject_Mapping__mdt</referenceTo>
+        <relationshipLabel>Predefined Field Values</relationshipLabel>
+        <relationshipName>Predefined_Field_Values</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Field_Config__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Field Config</label>
+        <referenceTo>Field_Config__mdt</referenceTo>
+        <relationshipLabel>Predefined Field Values</relationshipLabel>
+        <relationshipName>Predefined_Field_Values</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Field_Value__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Field Value</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Insert_related_record_if_no_match_found__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Insert related record if no match found?</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>Predefined Field Value</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>Email_to_sObject_Mapping__c</columns>
+        <columns>Field_Config__c</columns>
+        <columns>Field_Value__c</columns>
+        <columns>Insert_related_record_if_no_match_found__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Flight_Request_deloitte_flight</fullName>
+        <columns>MasterLabel</columns>
+        <columns>Field_Config__c</columns>
+        <columns>Field_Value__c</columns>
+        <columns>Insert_related_record_if_no_match_found__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Email_to_sObject_Mapping__c</field>
+            <operation>equals</operation>
+            <value>Flight_Request_deloitte_flight</value>
+        </filters>
+        <label>Flight Request @ deloitte+flight</label>
+    </listViews>
+    <listViews>
+        <fullName>Quote_Request_Deloitte_sales</fullName>
+        <columns>MasterLabel</columns>
+        <columns>Field_Config__c</columns>
+        <columns>Field_Value__c</columns>
+        <columns>Insert_related_record_if_no_match_found__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Email_to_sObject_Mapping__c</field>
+            <operation>equals</operation>
+            <value>Quote_Request_deloitte_sales</value>
+        </filters>
+        <label>Quote Request @ deloitte+sales</label>
+    </listViews>
+    <pluralLabel>Predefined Field Values</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>
